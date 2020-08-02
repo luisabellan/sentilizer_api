@@ -12,11 +12,11 @@ export const routes = [
 },
 
 {
-  method: 'GET',
+  method: 'POST',
   path: '/sentilize',
   handler: (request, h) => {
-
-      return 'I will change this to a POST request';
+      const payload = request.payload
+      return payload.sentence
   }
 }
   
