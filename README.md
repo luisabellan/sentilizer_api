@@ -12,6 +12,6 @@
 
 Homepage
 
-**POST /sentilize:** 
+**POST /sentilize** 
 
 Sentilizer
