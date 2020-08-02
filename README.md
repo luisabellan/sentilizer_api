@@ -2,16 +2,12 @@
 
  Sentiment Analyzer API
 
- RESTful API for Sentiment Analizer App (https://github.com/luisabellan/sentiment-analyzer)
-
-
+ RESTful API for Sentiment Analizer App (<https://github.com/luisabellan/sentiment-analyzer>)
 
 ## Endpoints
 
-**GET /** 
-
+**GET /**
 Homepage
 
-**POST /sentilize** 
-
+**POST /sentilize**
 Sentilizer
