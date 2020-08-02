@@ -4,11 +4,14 @@
   "description": "Restful API server",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "author": "Luis Abellan",
   "license": "MIT",
   "dependencies": {
+    "@hapi/hapi": "^19.2.0",
+    "babel-polyfill": "^6.26.0",
     "babel-preset-env": "^1.7.0",
     "babel-register": "^6.26.0"
   }
