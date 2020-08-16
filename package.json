@@ -1,0 +1,21 @@
+{
+  "name": "sentilizer_api",
+  "version": "1.0.0",
+  "description": "Restful API server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "Luis Abellan",
+  "license": "MIT",
+  "dependencies": {
+    "@hapi/hapi": "^19.2.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
