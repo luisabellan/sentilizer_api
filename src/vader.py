@@ -4,7 +4,7 @@ import operator
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='vader sentiment analyser')
-    parser.add_argument(('-s', action='store', type=str)
+    parser.add_argument('-s', action='store', type=str)
     args = parser.parse_args()
 
     if args.s:
@@ -12,5 +12,3 @@ if __name__ == '__main__':
         del scores['compound']
         sorted_scores = sorted(scores.items(), key=operator.itemgetter(1), reverse=True)
         print(sorted_scores[0][0])
-
-    
