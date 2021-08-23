@@ -5,7 +5,7 @@ export function sentilize(sentence) {
     return new Promise((resolve, reject) => {
 
         let options = {
-            scriptPath: '/home/luis/git/sentilizer_api/src/',
+            scriptPath: process.env.SCRIPT_PATH,
             args: [
                 '-s',
                 '\"' + sentence + '\"'
